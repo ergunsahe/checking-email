@@ -17,7 +17,7 @@ const check_email= () => {
         email.focus()
         email.value=""
         
-    }else if (!isNaN(split_email[0])){
+    }else if (!isNaN(email.value[0])){
         result.innerText="invalid entry 1-1"
         email.focus()
         email.value=""
